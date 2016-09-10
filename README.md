@@ -1,7 +1,6 @@
-This chef repository installs my socialApp development project into a docker instance.
-It uses an Amazon Ubuntu Web Instance to create and deploy on it.
-You will need to have an SSH key to set encrypted to actually use this chef recipe.
+This is a chef cookbook/role which can install any python application and deploy it to a docker image if you 
+are running a chef server/chef instance client.
 
-This chef recipe for deployCowrie.rb role will also build the cowrie project (fork of choice) and start it up in a docker instance.
+The example system that it installs now is Cowrie to a docker image and uses the chef client as the host machine.
 
-You can also build any custom  python application  and install it on a docker instace usig deployPython.rb role.
+Add all the cookbooks, and specifically the role deployCowrie.rb and deployPython.rb
